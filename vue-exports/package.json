@@ -1,0 +1,63 @@
+{
+  "name": "@your-org/vue-table-components",
+  "version": "1.0.0",
+  "description": "Production-ready Vue 3 table components with TypeScript support - exported from React to Vue 3 Composition API",
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./creators": "./creators/TopCreatorsTable.vue",
+    "./videos": "./videos-v2/TopVideosTableV2.vue",
+    "./lives": "./lives/TopLivesTable.vue"
+  },
+  "files": [
+    "creators/",
+    "videos-v2/",
+    "lives/",
+    "components/",
+    "index.ts",
+    "README.md",
+    "USAGE.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "dependencies": {
+    "lucide-vue-next": "^0.344.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vue-tsc": "^1.8.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "table",
+    "data-table",
+    "composition-api",
+    "typescript",
+    "components",
+    "ui-components",
+    "dashboard",
+    "analytics"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/vue-table-components"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/vue-table-components/issues"
+  },
+  "homepage": "https://github.com/your-org/vue-table-components#readme"
+}
